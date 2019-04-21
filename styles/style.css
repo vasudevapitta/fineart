@@ -40,11 +40,12 @@ body {
 .img {
     width: 300px;
     padding: 20px;
-    background-color: #f2f2f2;
     margin: 5px;
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+
+/*  background-color: #fff;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75); */
 }
 
 .content {
