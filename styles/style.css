@@ -28,6 +28,7 @@ body {
 .name {
 	font-size: 30px;
 	text-align: right;
+	color: #656565;
 }
 
 .imgAndQuote {
