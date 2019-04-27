@@ -129,7 +129,6 @@ footer {
 	-webkit-border-radius: 2px 2px 2px 2px;
 	border: 0px solid #000000;
 	background-color: #1cb841;
-	color: #fff;
 }
 
 .thankyou_message {
@@ -179,10 +178,6 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-
-	.img {
-		width: 100%;
-	}
 
 	.quote {
 		font-size: 40px;
