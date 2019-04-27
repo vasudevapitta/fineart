@@ -224,6 +224,10 @@ li {
 	    margin-right: 0;
 	}
 
+	header nav h1 {
+		width: 360px;
+	}
+
 	nav {
 		flex-wrap: wrap;
 		justify-content: space-around;
