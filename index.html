@@ -14,15 +14,19 @@
 <body>
 	<header>
 	<nav>
+	<span>
 	<img src="images/fineArtLogo.svg" alt="Art by QualityIcons from the Noun Project" class="logo">
 	<span><h1>Vasudeva Art School</h1><h3>Collierville, TN</h3></span>
+	</span>
+	<a id="interested" href="#myform">I'm Interested!</a>
 	</nav>
 	</header>
 
 	<article class="content">
 			<div class="imgAndQuote">
 			<p class="quote">Get the Amazing Transformational Art Skills<br>
-			<span class="name">Compare your artwork before & after</span></p>
+			<span class="name">Compare your artwork before & after <br></span>
+			</p>
 			<img src="images/ralph.jpg" alt="picture of Ralph Waldo Emerson" class="artist">
 			</div>
 
@@ -125,7 +129,7 @@
 	</div>
 	</div><!--flexer end-->
 	
-	<h2 class="underline">Art Supplies</h2>
+	<h2 class="underline">Art supplies</h2>
 
 	<div class="flexer">
 	<div>
@@ -181,11 +185,11 @@
 	</ul>
 	</article>
 
-	<div class="formDiv">
+	<div class="formDiv" id="myform">
 	<form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzONIUSjv--vnrMfMk3Ir-6vS0_G-oXZrKjJODUuA/exec">
 		<h3>Leave a message</h3>
 		<p>Name:</p>
-		<input type="input" name="name" placeholder="Enter Name" class="userdetails"><br>
+		<input type="input" name="name" placeholder="Enter name" class="userdetails"><br>
 		<p>email(optional):</p>
 		<input type="email" name="email" placeholder="Enter email" class="userdetails"><br>
 		<p>Phone(optional):</p>

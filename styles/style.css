@@ -7,6 +7,37 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+header nav h1 {
+	width: 310px;
+}
+
+header span {
+	margin-left: -20px;
+}
+
+#interested {
+    text-decoration: none;
+    background-color: #1b01a9;
+    color: #fff;
+    padding: 10px;
+    margin-right: 35px;
+}
+
+#interested:hover,
+#interested:focus {
+	background-color: #01a90e;
+	transition: ease 0.3s;
+	text-decoration: underline;
+}
+
+#sbmt:hover,
+#sbmt:focus {
+	background-color: #1b01a9;
+	transition: ease 0.3s;
+	text-decoration: underline;
+}
+
+
 .artist {
 	width: 35%;
 	height: 35%;
@@ -15,6 +46,7 @@ body {
 .logo {
 	width: 80px;
 	height: 80px;
+	float: left;
 }
 
 .quote {
@@ -23,6 +55,7 @@ body {
 	line-height: 100px;
 	margin-right: 70px;
 	color: #f17d75;
+	float:right;
 }
 
 .name {
@@ -62,6 +95,7 @@ nav {
 	padding: 10px;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	top: 0;
 	position: fixed;
 	width: 100%;
@@ -105,7 +139,7 @@ footer {
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 1px solid #000000;
-	margin: 2px;
+	margin: 0;
 }
 
 .flexer ul {
@@ -124,15 +158,16 @@ footer {
 	padding: 6px;
 	font-size: 14px;
 	cursor: pointer;
-	border-radius: 2px 2px 2px 2px;
-	-moz-border-radius: 2px 2px 2px 2px;
-	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 0 0 0 0;
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
 	border: 0px solid #000000;
-	background-color: #1cb841;
+	color: #fff;
+	background-color: #01a90e;
 }
 
 .thankyou_message {
-	color: #1cb841;
+	color: #01a90e;
 }
 
 #msg {
@@ -184,6 +219,18 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+	.content {
+	    margin-top: 100px;
+	}
+
+	nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	header span {
+    	margin-left: -70px;
+	}
 
 	.quote {
 		font-size: 40px;
@@ -208,6 +255,6 @@ li {
 	}
 
 	footer {
-		font-size: 12px;
+		font-size: 10;
 	}
 }
