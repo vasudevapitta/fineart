@@ -220,6 +220,10 @@ li {
 
 @media screen and (max-width: 768px) {
 
+	.container {
+		padding-top: 90px;
+	}
+
 	#interested {
 	    margin-right: 0;
 	}
