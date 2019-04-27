@@ -189,18 +189,18 @@
 	<div class="formDiv">
 		<form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzONIUSjv--vnrMfMk3Ir-6vS0_G-oXZrKjJODUuA/exec">
 			<h3>Leave a message</h3>
-			<p>Name:</p>
-			<input type="input" name="name" placeholder="Enter name" class="userdetails"><br>
-			<p>email(optional):</p>
-			<input type="email" name="email" placeholder="Enter email" class="userdetails"><br>
-			<p>Phone(optional):</p>
-			<input type="tel" name="phone" placeholder="Enter phone" class="userdetails"><br>
-			<p>Write a message:</p>
+			<p><label for="nm">Name:</label></p>
+			<input type="input" name="name" placeholder="Enter name" class="userdetails" id="nm"><br>
+			<p><label for="em">e-mail (optional):</label></p>
+			<input type="email" name="email" placeholder="Enter email" class="userdetails" id="em"><br>
+			<p><label for="tl">Phone (optional):</label></p>
+			<input type="tel" name="phone" placeholder="Enter phone" class="userdetails" id="tl"><br>
+			<p><label for="msg">Write a message:</label></p>
 			<textarea maxlength="500" id="msg" name="message" placeholder="Leave a message"></textarea>
 			<br>
 			<input type="submit" value="Submit" id="sbmt">
 			<div style="display:none" class="thankyou_message">
-			 <h3><em>Thank you</em> for your interest! We will get back to you soon!</h3>
+			<h3><em>Thank you</em> for your interest! We will get back to you soon!</h3>
 			</div>
 		</form>
 	</div>
