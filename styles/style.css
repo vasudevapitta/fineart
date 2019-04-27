@@ -132,6 +132,10 @@ footer {
 	color: #fff;
 }
 
+.thankyou_message {
+	color: #1cb841;
+}
+
 #msg {
 	width: 300px;
 	height: 120px;
