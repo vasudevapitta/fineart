@@ -139,7 +139,7 @@ footer {
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 1px solid #000000;
-	margin: 0;
+	margin: 1px;
 }
 
 .flexer ul {
@@ -219,17 +219,16 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-	.content {
-	    margin-top: 100px;
+
+	#interested {
+	    margin-right: 0;
 	}
 
 	nav {
 		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	header span {
-    	margin-left: -70px;
+		justify-content: space-around;
+		padding: 10px;
+		padding-left: 0;
 	}
 
 	.quote {
