@@ -1,33 +1,34 @@
-const frag = document.createDocumentFragment();
-const numOfImgs = 23;
+var frag = document.createDocumentFragment();
+var numOfImgs = 24;
 
-for(let i=1; i<=numOfImgs; i++){
-const anchor = document.createElement('a');
-anchor.href = 'images/'+i+'.jpg';
+while(numOfImgs>0){
+var anchor = document.createElement('a');
+anchor.href = 'images/'+numOfImgs+'.jpg';
 anchor.target = '_blank';
-const el = document.createElement('img');
-el.src = 'images/'+i+'.jpg';
-el.alt = 'image of artwork';
+var el = document.createElement('img');
+el.src = 'images/'+numOfImgs+'.jpg';
+el.alt = 'vasudeva pitta\'s artwork';
 el.className = 'img';
 anchor.appendChild(el);
 frag.appendChild(anchor);
+numOfImgs--;
 }
 
-const div = document.getElementsByClassName('container')[0];
+var div = document.getElementsByClassName('container')[0];
 div.appendChild(frag);
 
 /*
-const frag = document.createDocumentFragment();
-const numOfImgs = 23;
+var frag = document.createDocumentFragment();
+var numOfImgs = 23;
 
 for(let i=1; i<=numOfImgs; i++){
-const el = document.createElement('img');
+var el = document.createElement('img');
 el.src = `images/${i}.jpg`;
 el.alt = 'image of artwork';
 el.className = 'img';
 frag.appendChild(el);
 }
 
-const div = document.getElementsByClassName('container')[0];
+var div = document.getElementsByClassName('container')[0];
 div.appendChild(frag);
 */
