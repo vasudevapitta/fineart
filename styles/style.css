@@ -7,9 +7,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-header nav h1 {
-	width: 310px;
-}
 
 header span {
 	margin-left: -20px;
@@ -68,8 +65,7 @@ header span {
 }
 
 .logo {
-	width: 80px;
-	height: 80px;
+	width: 320px;
 	float: left;
 }
 
