@@ -15,7 +15,7 @@ header span {
 	margin-left: -20px;
 }
 
-#interested {
+.interested {
     text-decoration: none;
     background-color: #1b01a9;
     color: #fff;
@@ -23,11 +23,36 @@ header span {
     margin-right: 35px;
 }
 
-#interested:hover,
-#interested:focus {
+.interested:hover,
+.interested:focus {
 	background-color: #01a90e;
 	transition: ease 0.3s;
 	text-decoration: underline;
+}
+
+.splbtn {
+	text-decoration: none;
+	background-color: #fff;
+	color: #000;
+    padding: 10px;
+    margin-right: 35px;
+}
+
+.splbtn:hover,
+.splbtn:focus {
+	background-color: #ff92ed;
+	transition: ease 0.3s;
+	text-decoration: underline;
+}
+
+.splNotice {
+    margin-top: 170px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #7e13b5;
+    color: #fff;
+    line-height: 3.1;
+    max-height: 210px;
 }
 
 #sbmt:hover,
@@ -36,7 +61,6 @@ header span {
 	transition: ease 0.3s;
 	text-decoration: underline;
 }
-
 
 .artist {
 	width: 35%;
@@ -68,7 +92,8 @@ header span {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 40px;
+	padding: 0 40px;
+	margin-top: -100px; /* remove later */
 }
 
 .img {
@@ -234,7 +259,7 @@ li {
 		margin-top: 90px;
 	}
 
-	#interested {
+	.interested {
 	    margin-right: 0;
 	}
 
