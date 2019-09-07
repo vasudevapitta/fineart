@@ -19,7 +19,7 @@ header span {
     padding: 10px;
     margin-right: 35px;
 }
-
+/*
 .splbtn {
 	text-decoration: none;
 	background-color: #fff;
@@ -44,7 +44,7 @@ header span {
     line-height: 3.1;
     max-height: 210px;
 }
-
+*/
 #sbmt:hover,
 #sbmt:focus,
 .interested:hover,
@@ -94,7 +94,7 @@ header span {
 }
 
 .content {
-	margin-top: 40px;
+	margin-top: 170px;
 }
 
 .text {
@@ -232,7 +232,7 @@ li {
 @media screen and (max-width: 768px) {
 
 	.content {
-		margin-top: 90px;
+		margin-top: 210px;
 	}
 
 	.interested {
