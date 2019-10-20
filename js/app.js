@@ -1,5 +1,5 @@
 var frag = document.createDocumentFragment();
-var numOfImgs = 27;
+var numOfImgs = 28;
 
 while(numOfImgs>0){
 var anchor = document.createElement('a');
