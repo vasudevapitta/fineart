@@ -20,8 +20,14 @@ body {
     float: left;
 }
 
+.scrolltop {
+	width: 40px;
+}
+
 .social-icon:hover,
-.social-icon:focus {
+.social-icon:focus,
+.scrolltop:hover,
+.scrolltop:focus {
 	opacity: 0.6;
 	transition: ease 0.2s;
 }

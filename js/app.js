@@ -1,5 +1,5 @@
 var frag = document.createDocumentFragment();
-var numOfImgs = 28;
+var numOfImgs = 29;
 
 while(numOfImgs>0){
 var anchor = document.createElement('a');
@@ -16,19 +16,3 @@ numOfImgs--;
 
 var div = document.getElementsByClassName('container')[0];
 div.appendChild(frag);
-
-/*
-var frag = document.createDocumentFragment();
-var numOfImgs = 23;
-
-for(let i=1; i<=numOfImgs; i++){
-var el = document.createElement('img');
-el.src = `images/${i}.jpg`;
-el.alt = 'image of artwork';
-el.className = 'img';
-frag.appendChild(el);
-}
-
-var div = document.getElementsByClassName('container')[0];
-div.appendChild(frag);
-*/
