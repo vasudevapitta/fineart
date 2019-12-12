@@ -46,6 +46,9 @@ header span {
 	-moz-border-radius: 6px 6px 6px 6px;
 	-webkit-border-radius: 6px 6px 6px 6px;
 	border: 0px solid #000000;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 /*
 .splbtn {
@@ -183,6 +186,7 @@ footer {
 	font-size: 14px;
 	cursor: pointer;
 	margin-right: 0;
+	padding: 15px 0;
 }
 
 .thankyou_message {
