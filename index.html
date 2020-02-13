@@ -10,6 +10,16 @@
     <link rel="icon" href="dist/images/logo1.jpg">
     <title>Vasudeva Art School</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <style id="antiClickjack">body{display:none !important;}</style>
+    <script type="text/javascript">
+  	if (self === top) {
+    	var antiClickjack = document.getElementById("antiClickjack");
+    	antiClickjack.parentNode.removeChild(antiClickjack);
+  	}
+  	else {
+    	top.location = self.location;
+  	}
+    </script>
 </head>
 
 <body>
